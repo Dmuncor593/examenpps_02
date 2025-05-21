@@ -16,4 +16,4 @@ app.include_router(tasks.router)
 # Código que se añade
 @app.get("/version")
 def version():
-    return {"message": "Munoz, David - v0"}
+    return {"message": "Munoz, David - v1 Ango"}
